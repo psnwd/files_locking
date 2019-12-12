@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info>
+	<id>files_locking</id>
+	<name>File Locking</name>
+	<summary>Manual File Locking</summary>
+	<description>Lock and unlock files, to prevent outside tampering</description>
+	<licence>GPLv2</licence>
+	<author>Felix Heidecke</author>
+	<version>1.0.0</version>
+	<namespace>Filelocking</namespace>
+	<documentation>
+		<developer>https://github.com/owncloud/files_filelocking/blob/master/README.md</developer>
+	</documentation>
+	<screenshot>https://raw.githubusercontent.com/owncloud/screenshots/master/files_filelocking/ownCloud-app-mediaviewer.jpg</screenshot>
+	<category>multimedia</category>
+	<website>https://github.com/owncloud/files_filelocking</website>
+	<bugs>https://github.com/owncloud/files_filelocking/issues</bugs>
+	<repository type="git">https://github.com/owncloud/files_filelocking.git</repository>
+	<dependencies>
+		<owncloud min-version="10" max-version="10"/>
+	</dependencies>
+	<default_enable />
+</info>

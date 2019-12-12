@@ -1,0 +1,27 @@
+{
+  "name": "files_locking",
+  "version": "1.0.0",
+  "description": "Manual File Locking",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "watch": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owncloud/files_locking.git"
+  },
+  "keywords": [],
+  "author": "Felix Heidecke",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/owncloud/files_locking/issues"
+  },
+  "homepage": "https://github.com/owncloud/files_locking#readme"
+}
